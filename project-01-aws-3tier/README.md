@@ -37,17 +37,20 @@ The following components were implemented:
 
 ## Screenshots
 
-Infrastructure proof is available in the following directory:
+Infrastructure proof screenshots:
 
-docs/screenshots/
-
-Included screenshots:
 - Terraform apply success
 - VPCs created
 - Public and private subnets
 - Route tables
-- Resource map
 - NAT gateways
+- Transit Gateway
+- Transit Gateway attachments
+- Transit Gateway route table
+- VPC route tables with TGW routes
+
+All screenshots are available under:
+docs/screenshots/
 
 
 ---
