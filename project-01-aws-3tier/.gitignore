@@ -1,0 +1,15 @@
+cat > project-01-aws-3tier/.gitignore << 'EOF'
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+
+# OS / local
+.DS_Store
+
+# Secrets
+*.pem
+*.env
+EOF

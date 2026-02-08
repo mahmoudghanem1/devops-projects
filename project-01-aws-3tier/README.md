@@ -1,18 +1,58 @@
 # Project 01 – AWS 3-Tier Architecture (Terraform)
 
-This project deploys a **highly available 3-tier architecture** on AWS using Terraform.
+This project demonstrates building a highly available **network foundation** on AWS using **Terraform**.
+
+---
 
 ## Architecture Overview
-- Web Tier: Nginx
-- Application Tier: Tomcat
-- Database Tier: RDS MySQL
-- Public and Private Subnets
-- Load Balancers and Auto Scaling
 
-## Goals
-- Understand AWS networking fundamentals
-- Practice Infrastructure as Code with Terraform
-- Build cost-aware cloud architectures
+The following components were implemented:
+
+- Two VPCs
+- Public and Private Subnets across multiple Availability Zones
+- Internet Gateway
+- NAT Gateways
+- Route Tables with proper associations
+- Fully provisioned using Terraform modules
+
+---
+
+## What Was Implemented
+
+- VPC networking design
+- Subnet segmentation (public / private)
+- Internet access for public subnets
+- Outbound internet access for private subnets via NAT Gateway
+- Clean and reusable Terraform structure
+
+---
+
+## Tools Used
+
+- AWS
+- Terraform
+- VS Code
+
+---
+
+## Screenshots
+
+Infrastructure proof is available in the following directory:
+
+docs/screenshots/
+
+Included screenshots:
+- Terraform apply success
+- VPCs created
+- Public and private subnets
+- Route tables
+- Resource map
+- NAT gateways
+
+
+---
 
 ## Status
-🚧 In progress
+
+✅ Network layer completed  
+🚧 Application layer in progress
